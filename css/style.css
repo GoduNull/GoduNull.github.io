@@ -1,7 +1,108 @@
 body {
- margin: 0;
+ margin: 0px;
  background: #E5E5E5;
 }
+
+.wrapper {
+    width: 448px;;
+    height: auto;
+    border-top: 4px solid #101214;
+    margin: 20px auto;
+    padding: 34px 38px 38px 38px;
+    background: #FFFFFF;
+}
+
+@media screen and (max-width: 736px) {
+    .wrapper {
+        width: 220px;
+        padding: 10px 0px 10px 10px;;
+    }
+
+    .info {
+        order: 1;
+    }
+
+    .title__avatar {
+        width:100% !important;
+        justify-content: center;
+        margin:0px 0px 0px 0px !important;
+    }
+    .xp{
+
+        Width: 220px;
+        order: 2;
+    }
+    .title__fullname {
+        text-align: center;
+    }
+    .info__title {
+        width: 220px;
+        text-align: center;
+    }
+    .title{
+        width: 220px;
+    }
+    
+    .infos__heading-title {
+        padding-top: 10px !important;
+    }
+    .info{
+        text-align: center;
+        min-width: 220px;
+        margin-bottom: 15px;
+    }
+    .title__fullname {
+        min-width: 220px;
+    }
+}
+/* title */
+.title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.title__fullname {
+    Width: 197px;
+    Height: 60px;
+}
+.title-size{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 115%;
+    color: #101214;
+}
+.title-size-post {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 157%;
+    font-size: 14px;
+}
+/*  */
+
+/* avatar  */
+.title__avatar {
+    display: flex;
+    width: 140px;
+    margin:0px 0px 10px 0px;
+}
+.avatar__logo{
+    width: 72px;
+    height: 72px;;
+}
+/*  */
+
+
+/* Content */
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 .experience {
     display: flex;
     flex-direction: column;
@@ -10,163 +111,122 @@ body {
     display: flex;
     flex-direction: column;
 }
-.wrapper {
-    width: 595px;
-    height: auto;
-    border-top: 4px solid #101214;
-    display: flex;
-    margin: 20px auto;
-    padding-top: 24px;
-    align-content: center;
-    justify-content: center;
-    background: #FFFFFF;
+
+.xp{
+
+    Width: 290px;;
 }
-.content-right__avatar {
-    margin-bottom: 10px;
-}
-.container {
-    width: 499px;
-    display: flex; 
-    justify-content: space-between;
-}
-.logo{
-    width: 72px;
-    height: 72px;
-    left: 407px;
-    top: 36px;
-    background: url(1H_7AxP0.jpg);
-    filter: drop-shadow(0px 2px 4px rgba(16, 18, 20, 0.08));
-}
-.content-right__infos {
+
+/*  */
+
+/* Infos */
+.info {
     width: 140px;
-    height: 558px;
-    top: 140px;
-    left: 407px;
 }
 .infos__heading-title {
-    font-family: Arial;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 11px;
-    line-height: 18px;
-    color: #73808D;
     padding-top: 25px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 9px;
+    line-height: 160%;
+    color: #73808D;
 }
 .infos__item {
     font-family: Inter;
     font-style: normal;
     font-weight: 500;
-    font-size: 11px;
-    line-height: 18px;
+    font-size: 9px;
+    line-height: 160%;
     color: #73808D;
 }
+.info__title {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 9px;
+    line-height: 160%; 
+    color: #73808D;
+
+}
+/*  */
+
+
+
+
+
 .experience-list {
     padding-bottom: 15px;
 }
 .education-list {
     padding-bottom: 15px;
 }
-.content-left__xp{
-    Width: 335px;
-    Height: 630px;
-    Top: 140px;
-    Left: 48px;
 
-}
-.title-size{
-    font-family: Arial;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 28px;
-    color: #101214;
-}
-.title-size-post {
-    font-family: Arial;
-    font-style: normal;
-    line-height: 28px;
-    font-size: 18px;
-}
-.content-left__title {
-    Width: 197px;
-    Height: 60px;
-    Top: 48px;
-    Left: 48px;
-    margin-bottom: 15px;
-}
 .xp-title {
-    font-family: Arial;
+    font-family: Inter;
     font-style: normal;
-    font-weight: normal;
-    font-size: 7px;
-    line-height: 18px;
+    font-weight: 500;
+    font-size: 6px;
+    line-height: 233%;
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #73808D;
 }
 .experience-list__position {
-    font-family: Arial;
+    color: #101214;
+    font-family: Inter;
     font-style: normal;
     font-weight: bold;
-    font-size: 11px;
-    line-height: 18px;
-    color: #101214;
+    font-size: 9px;
+    line-height: 160%;
 }
 .experience-list__enterprise-name {
-    font-family: Arial;
+    font-family: Inter;
     font-style: normal;
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 18px;
+    font-weight: normal;   
+    font-size: 9px;
+    line-height: 160%;
     color: #101214;
 }
 .experience-list__date {
-    font-family: Arial;
+    font-family: Inter;
     font-style: normal;
-    font-weight: 400;
-    font-size: 7px;
-    line-height: 18px;
+    font-weight: 500;
+    font-size: 7.0867px;
+    line-height: 200%;
     color: #73808D;
-
 }
 .experience-list__info {
-    font-family: Arial;
+    font-family: Inter;
     font-style: normal;
-    font-weight: 400;
-    font-size: 11px;
-    line-height: 11px;
+    font-weight: 500;
+    font-size: 9px;
+    line-height: 160%;
     color: #101214;
-
 }
 .education-list__position {
-    font-family: Arial;
+    color: #101214;
+    font-family: Inter;
     font-style: normal;
     font-weight: bold;
-    font-size: 11px;
-    line-height: 18px;
-    color: #101214; 
+    font-size: 9px;
+    line-height: 160%;
 }
 .education-list__school-name {
-    font-family: Arial;
+    font-family: Inter;
     font-style: normal;
-    font-weight: normal;
-    font-size: 10px;
-    line-height: 18px;
+    font-weight: 500;   
+    font-size: 9px;
+    line-height: 160%;
     color: #101214;
 }
 .education-list__date {
-    font-family: Arial;
+    font-family: Inter;
     font-style: normal;
-    font-weight: normal;
-    font-size: 7px;
-    line-height: 18px;
+    font-weight: 500;
+    font-size: 7.0867px;
+    line-height: 200%;
     color: #73808D;
 }
-.infos-title {
-font-family: Arial;
-font-style: normal;
-font-weight: normal;
-font-size: 11px;
-line-height: 18px;
-color: #73808D;
-}
+
+
