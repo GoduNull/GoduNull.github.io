@@ -15,7 +15,7 @@ body {
 @media screen and (max-width: 736px) {
     .wrapper {
         width: 220px;
-        padding: 10px 0px 10px 10px;;
+        padding: 10px 10px 10px 10px;;
     }
 
     .info {
@@ -156,7 +156,15 @@ body {
 /*  */
 
 
-
+a{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 160%;
+    color: #73808D;
+    text-decoration: none;
+}
 
 
 .experience-list {
