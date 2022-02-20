@@ -11,6 +11,29 @@ body {
     padding: 34px 38px 38px 38px;
     background: #FFFFFF;
 }
+a.buttons {
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+    border-radius: 4px;
+    color: #555555;
+    width:120px;
+    font-size: 12px;
+    text-align:left;
+    height: 20px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    padding: 4px 2px;
+    vertical-align: middle;
+    text-decoration:none;
+}
+a.buttons:hover, a.bot8:focus {
+    border-color: rgba(82, 168, 236, 0.8);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+    outline: 0 none;
+}
+
 
 @media screen and (max-width: 736px) {
     .wrapper {
@@ -64,7 +87,7 @@ body {
 
 .title__fullname {
     Width: 197px;
-    Height: 60px;
+    Height: 85px;
 }
 .title-size{
     font-family: Inter;
@@ -90,9 +113,8 @@ body {
     margin:0px 0px 10px 0px;
 }
 .avatar__logo{
-    border-radius: 100px; 
+    border-radius: 30px; 
     border: 1px solid rgb(225, 213, 233); 
-    box-shadow: 0 0 4px #666; 
     width: 72px;
     height: 72px;;
 }
