@@ -86,7 +86,7 @@ a.buttons:hover, a.bot8:focus {
 }
 
 .title__fullname {
-    Width: 197px;
+    Width: 233px;
     Height: 85px;
 }
 .title-size{
@@ -103,6 +103,7 @@ a.buttons:hover, a.bot8:focus {
     font-weight: normal;
     line-height: 157%;
     font-size: 17px;
+    margin-bottom: 6px;
 }
 /*  */
 
